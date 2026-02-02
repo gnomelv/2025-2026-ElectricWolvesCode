@@ -3,6 +3,11 @@ package org.firstinspires.ftc.teamcode.pedroPathing.HelpfulClasses;
 
 import com.qualcomm.robotcore.util.ElapsedTime;
 
+/*
+Look at VelocityPID_wStatic for more info
+I don't think theres any reason to use this over the static one.
+ */
+
 public class VelocityPID {
 
     private double integralSum = 0;
