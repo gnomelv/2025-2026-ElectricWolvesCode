@@ -27,6 +27,19 @@ import org.firstinspires.ftc.teamcode.pedroPathing.SERVO_POSITIONS;
 
 import java.util.List;
 
+/*
+I like having a single class that controls all of the non-drivetrain aspects of the robot. It just makes the
+teleop and auton codes much easier to write and understand. Importantly, when the class is defined you define all the
+motors/servos/other stuff and then you have an initialization method, that initializes everything and would be called
+on init. The rest of the class is just methods that will be called throughout Opmodes. This year I tried to have a big
+finite state machine control the launch sequence and a tiny one to control the feed servo. They never worked perfectly
+but are something that would be really good to have for the drivers and for awards. Depends on next years game,
+but implementing one might be really useful
+ */
+
+
+
+
 public class Turret_GameSpecific {
     private TelemetryManager telemetryM;
     public ServoImplEx hardStopL, hardStopR, feed, tAngle;

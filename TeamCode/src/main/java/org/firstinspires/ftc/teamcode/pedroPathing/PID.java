@@ -2,6 +2,19 @@ package org.firstinspires.ftc.teamcode.pedroPathing;
 
 
 import com.bylazar.configurables.annotations.Configurable;
+/*
+This class is really useful for tuning anything (in this case flywheel and position PIDs.
+Denoting the class with @Configurable and making these variables public and static allow them to be temporarily adjusted
+in panels. By connecting to the robots wifi and going to the panels ip (found in the pedro pathing or panels docs)
+you can temporarily adjust these values without re-uploading code. The values will only save if they are uploaded
+before you initialize an opmode but will save until the robot turns off, resets, or (maybe) disconnects.
+
+AFTER TUNING AND BEFORE TURNING THE ROBOT OFF YOU HAVE TO PUT THE CORRECT VALUES FROM PANELS INTO THIS ACTUAL CODE
+Gamespecific opmodes will reference this class a lot.
+ */
+
+
+
 
 @Configurable
 public class PID {

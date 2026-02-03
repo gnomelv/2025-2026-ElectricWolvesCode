@@ -2,6 +2,10 @@ package org.firstinspires.ftc.teamcode.pedroPathing;
 
 
 import com.bylazar.configurables.annotations.Configurable;
+/*
+Look at the PID class for how this works
+ */
+
 
 @Configurable
 public class SERVO_POSITIONS {
