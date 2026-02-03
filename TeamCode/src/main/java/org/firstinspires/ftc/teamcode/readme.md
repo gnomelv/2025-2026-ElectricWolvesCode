@@ -1,3 +1,11 @@
+## Message from Noam
+This is FTC 24777 Electric Wolves code from the 2025-2026 season Decode. Most of it written by me
+Hopefully having all of this will be helpful for future years. I've left comments at the top of all the important
+classes so its hopefully not too confusing.
+
+
+
+
 ## TeamCode Module
 
 Welcome!
